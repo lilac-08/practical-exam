@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABES Engineering College,Ghaziabad</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* for styling the nested table */
+        .nested-table {
+            width: 100%;
+            margin: 0;
+        }
+        .nested-table th, .nested-table td {
+            border: 1px solid #999;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;"><span style="background-color: powderblue;"> ABES Engineering College,Ghaziabad</span></h2>
+    <h3 style="text-align: center;">&copy; &lt; = &gt;</h3>
+    <table>    <tr>
+            <th>Serial No.</th>
+            <th>Name of Student</th>
+            <th>Branch (Nested Table)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kritika Sharma</td>
+            <td>
+                <!-- Nested Table for Branches -->
+                <table class="nested-table">
+                    <tr>
+                        <th>Branch No.</th>
+                        <th>Branch Name</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Information Technology</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Vihaan Singh</td>
+            <td>
+                <!-- Nested Table for Branches -->
+                <table class="nested-table">
+                    <tr>
+                        <th>Branch No.</th>
+                        <th>Branch Name</th>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Mechanical Engineering</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
